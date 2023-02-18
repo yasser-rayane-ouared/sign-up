@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(45deg, #29323c, white, #2b3e50);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+  
+  @keyframes gradient {
+    10% {
+      background-position: 0% 50%;
+    }
+    40% {
+      background-position: 100% 70%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+.form{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+.f{
+    width: 200px;
+}
+.check{
+    grid-area: check; 
+    display: flex;
+
+}
+.info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 30px;
+    padding: 90px;
+    margin-top: -60px;
+    margin-bottom: -50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    width: 1000px;
+    margin:100px auto;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.photo{
+    text-align: center;
+    width: 400px;
+    background:rgb(17, 107, 143);;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: auto auto;
+}
+.zapa{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px 100px;
+}
+.title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+    font-weight: 900;
+    color:rgb(17, 107, 143);
+}
+.button{
+    margin-top: 40px;
+}
+.google{
+    width: 200px;
+    height: 35px;
+    background:rgb(17, 107, 143);
+    font-weight: 700;
+    transition: 0.9s ;
+    border:none;
+    border-radius: 8px;
+}
+.google:hover{
+    transform: scale(1.1);
+    border: #07001f;
+}
+.up{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.or{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.cr{
+  font-size: 14px;
+  text-align: center;
+  color: #757575;
+  font-weight: 900;
+  margin-top: 5px;
+}
+input{
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid white;
+    background: #e4e4e4;
+    text-align: center;
+  }
+label{
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 3px;
+}
+.submit{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.
+img{
+    height: 10px;
+    width: 10px;
+}
+.reg{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height: 40px;
+    background:#e4e4e4;
+    color: #07001f;
+    font-weight: 700;
+    transition:0.9s;
+}
+.reg:hover{
+    background:gray;
+    color: white;
+    transform: scale(0.8);
+}
+.log{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height: 40px;
+    background:rgb(17, 107, 143);
+    color: white;
+    font-weight: 700;
+    transition: 0.9s ;
+}
+.log:hover{
+    background: gray;
+    transform: scale(0.8);
+}
+input:focus{
+    border: 2px rgb(192, 192, 192) solid;
+}
+.submit input {
+    cursor: pointer;
+} 
+.term:hover{
+    text-decoration: none;
+}
+.g-logo{
+    
+}
+.big-txt{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.para{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+h3{
+    font-size: 35px;
+    margin: 10px;
+    color: white;
+    word-spacing: 0px;
+}
